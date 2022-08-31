@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>String Decoder | Devmountain Foundations</title>
+
+      <link
+        href="_static/pygments.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <link href="_static/devmountain.css" rel="stylesheet" type="text/css" />
+          <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+          <link rel="stylesheet" type="text/css" href="_static/devmountain.css" />
+          <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+          <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+
+      <script src="_static/pdfobject.min.js"></script>
+      
+  </head>
+  <body>
+      <div id="handouts-container">
+        <header id="page-header">
+            <p id="project-title">Devmountain Foundations</p>
+            <p id="page-title">String Decoder</p>
+              <p id="backlink">
+                <a href="/"> &laquo; Back to Homepage </a>
+              </p>
+        </header>
+
+        <nav id="page-toc"><ul>
+<li><a class="reference internal" href="#">String Decoder</a><ul>
+<li><a class="reference internal" href="#instructions">Instructions</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+
+        <main id="page-content">
+            <section class="section" id="string-decoder">
+<h1>String Decoder</h1>
+<dl class="field-list simple">
+<dt class="field-odd">Difficulty</dt>
+<dd class="field-odd"><p>Medium</p>
+</dd>
+<dt class="field-even">Concepts</dt>
+<dd class="field-even"><p>Loops</p>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section class="section" id="instructions">
+<h2>Instructions</h2>
+<p>In this challenge, you’ll write a decoder function. The function should take in a string and return a string.</p>
+<p>Start by creating a function called <cite>decoder</cite> that has a single parameter called <cite>code</cite>.</p>
+<p>Each code will be a sequence of numbers and letters, always starting with a number and ending with a letter(s).</p>
+<p>Each number tells you how many characters to skip before finding a good letter. After each good letter should come the next next number.</p>
+<p>For example, the string ‘hey’ could be encoded to ‘0h2xce5ngbrdy’. This means ‘skip 0, find the ‘h’, skip 2, find the ‘e’, skip 5, find the ‘y’.</p>
+<p>So, if we passed ‘0h2xce5ngbrdy’ into your function, we should get ‘hey’ as a result.</p>
+<p>Here are a few more examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;0h2xce5ngbrdy&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;hey&#39;</span>
+<span class="s1">&#39;3vdfn&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;n&#39;</span>
+<span class="s1">&#39;0r&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;r&#39;</span>
+<span class="s1">&#39;2bna0p1mp2osl0e&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;apple&#39;</span>
+<span class="s1">&#39;0y4akjfe0s&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;yes&#39;</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+        </main>
+
+        <footer id="page-footer">
+            <p>&copy; 2021 Devmountain</p>
+        </footer>
+      </div>
+
+      <script src="_static/main.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+  </body>
+</html>
