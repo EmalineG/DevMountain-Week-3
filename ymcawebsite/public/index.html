@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports Tournament</title>
+    <h1 id = "logo"><img src="logo.png" alt="ymca esports logo"></h1>
+    <h2 class="divider tourney" contenteditable>Tournament & Scrim Platform &copy; </h2>
+    <link rel="stylesheet" href="css/styles.css" 
+  </head>
+<body>
+  <div>
+    <!--buttons--> 
+    <a href="register.html" target="_blank">Register a Team!</a>
+    <a href="scrims.html" target="_blank">Find a Scrim!</a>
+    <a href="tournaments.html" target="_blank">Enter a Tournament!</a>
+  </div>
+<div>
+    <!--video tag-->
+    <video width="320" height="240" controls>
+        <source src="temporary-ymca-esports-lobby-with-sound.mp4" type="video/mp4">
+    
+      </video>
+</div>
+
+<div>
+    <h2> Current Leaderboard</h2>
+    <!-- add table-->
+    <table class = "center">
+        <tr>
+          <th>Rank</th>
+          <th>YMCA Location</th>
+          <th>Points</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Orange County, CA</td>
+          <td> 432 </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Omaha, Nebraska</td>
+          <td> 431 </td>
+        </tr>
+      </table>
+</div>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBiqhP2c3zIaRISjAeVAzG5ibSuuRdOq_I",
+    authDomain: "lolleee.firebaseapp.com",
+    databaseURL: "https://lolleee-default-rtdb.firebaseio.com",
+    projectId: "lolleee",
+    storageBucket: "lolleee.appspot.com",
+    messagingSenderId: "272574364508",
+    appId: "1:272574364508:web:392d6a7f357f45d6461f99",
+    measurementId: "G-M3KVEFWL51"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+</html>
