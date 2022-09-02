@@ -69,7 +69,22 @@ body.modal-open {
 .profileH{
 	text-align: center;
 }
+
 a.button {
+	background-color: #b449a2;
+	border: 2px solid #74115e;;
+	color: #ffffff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+  }
+
+
+button {
 	background-color: #b449a2;
 	border: 2px solid #74115e;;
 	color: #ffffff;
@@ -83,6 +98,11 @@ a.button {
   }
   
   a.button:hover {
+	background-color: #74115e; 
+	color: #ffffff;
+  }
+
+button:hover {
 	background-color: #74115e; 
 	color: #ffffff;
   }
