@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: "cutefont";
+    src: url(AlanisHand.ttf) format("truetype");
+}
+
+
+@font-face {
+    font-family: "epicfont";
+    src: url(BRINGTHANOIZE.TTF) format("truetype");
+}
+
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input[type = "text"]{
+	display: block;
+}
+
+input[type = "textarea"]{
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.cat1{
+	font-family: "cutefont";
+	font-size: 24pt;
+}
+
+.cat2{
+	font-family: "epicfont";
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.profileH{
+	text-align: center;
+}
+a.button {
+	background-color: #b449a2;
+	border: 2px solid #74115e;;
+	color: #ffffff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+  }
+  
+  a.button:hover {
+	background-color: #74115e; 
+	color: #ffffff;
+  }
+  
+  .pair  {
+    border: 3px rgb(252, 133, 36) dotted;
+    padding: 3px;
+    display: block;        
+}  
+
+
+.toShow
+{
+  display:none;
+  text-align: center;
+}
