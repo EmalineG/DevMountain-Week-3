@@ -4,7 +4,7 @@ console.log("hello world");
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	alert('okay! go to profile so we can get to know each other!');
+	alert('new quest: friendship quest! (go to friendship quest page)');
 }
 
 
